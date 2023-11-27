@@ -1,0 +1,32 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Oswald:wght@200&family=Smooch+Sans&display=swap');
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--fontColor);
+    font-family: var(--bodyFont);
+}
+
+:root {
+    /* definiujemy zmienne dla palety kolorów */
+    --primary-000: #E0F7FA;
+    --primary-100: #B2EBF2;
+    --primary-200: #80DEEA;
+    --primary-300: #4DD0E1;
+    --primary-400: #26C6DA;
+    --primary-500: #00BCD4;
+    --primary-600: #00ACC1;
+    --primary-700: #0097A7;
+    --primary-800: #00838F;
+    --primary-900: #006064;
+    /* zmienne pod barwy główne */
+    --fontColor: var(--primary-800);
+    --backgroundColor: var(--primary-100);
+    /* zmienne pod kroje czcionek */
+    --specialFont: 'Ephesis', cursive;
+    --bodyFont: 'Oswald', sans-serif;
+    --headerFont: 'Smooch Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--headerFont);
+}
