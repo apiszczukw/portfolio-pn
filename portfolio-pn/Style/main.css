@@ -4,6 +4,8 @@ body {
     background-color: var(--backgroundColor);
     color: var(--fontColor);
     font-family: var(--bodyFont);
+
+    margin: 0;
 }
 
 :root {
@@ -29,4 +31,67 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: var(--headerFont);
+}
+
+.navbar {  
+    display: flex;
+    justify-content: center;
+}
+
+.nav-center {
+    width: 90vw;
+}
+
+.nav-header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header > img {
+    width: 6rem;
+} 
+
+.btn {
+    background-color: var(--primary-500);
+    color: white;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 0.25rem;
+    padding: 0.4rem 0.7rem;
+}
+
+.nav-btn > i {
+    font-size: 1.4rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+
+    height:0;
+    overflow: hidden;
+    
+}
+
+.show-links {
+    height: 410px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    text-align: center;
+    color: var(--fontColor);
+    font-size: 1.4rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--primary-500);
+    letter-spacing: 0.1rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-200);
 }

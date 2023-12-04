@@ -2136,6 +2136,7 @@
     <Content Include="Zasoby\FontAwesome-PN\fontawesome-free-6.4.2-web\svgs\solid\yin-yang.svg" />
     <Content Include="Zasoby\FontAwesome-PN\fontawesome-free-6.4.2-web\svgs\solid\z.svg" />
     <Content Include="Zasoby\Grafiki\logo-pn.PNG" />
+    <Content Include="Zasoby\menu.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
