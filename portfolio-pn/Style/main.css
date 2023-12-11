@@ -73,6 +73,8 @@ h1, h2, h3, h4, h5 {
     height:0;
     overflow: hidden;
     
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
 }
 
 .show-links {
@@ -94,4 +96,58 @@ a {
 
 .nav-link:hover {
     color: var(--primary-200);
+}
+
+@media screen and (min-width: 600px) 
+{
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-links {
+        height: auto;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-center {
+        display: flex;
+        max-width: 1280px;
+    }
+
+    .contact-link {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .nav-link {
+        border: none;
+        margin-right: 1rem;
+        padding: 0;
+    }
+
+    .nav-header {
+        margin-right: 2rem;
+    }
+}
+
+
+
+/* STOPKA */
+.page-footer {
+    background-color: black;
+    color: var(--primary-100);
+    font-family: var(--headerFont);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page {
+    background-color: var(--primary-600);
+    min-height: calc(100vh - 9rem);
+    max-width: 1280px;
+    margin-inline: auto;
 }
